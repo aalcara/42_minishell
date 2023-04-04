@@ -6,7 +6,7 @@
 /*   By: aalcara- <aalcara-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/07 21:20:32 by rdutenke          #+#    #+#             */
-/*   Updated: 2021/09/18 19:18:51 by aalcara-         ###   ########.fr       */
+/*   Updated: 2023/04/04 10:41:11 by aalcara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ typedef struct s_minishell
 /*
 ** GLOBAL VARIABLE
 */
-t_minishell	g_minishell;
+extern t_minishell	g_minishell;
 
 void		lsh_loop(void);
 int			ft_getchar(void);

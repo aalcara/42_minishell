@@ -6,13 +6,15 @@
 /*   By: aalcara- <aalcara-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/07 21:00:40 by rdutenke          #+#    #+#             */
-/*   Updated: 2021/09/16 14:20:57 by aalcara-         ###   ########.fr       */
+/*   Updated: 2023/04/04 10:41:44 by aalcara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "include/header.h"
 
-int	main(void)
+t_minishell g_minishell;
+
+int main(void)
 {
 	g_minishell.env = env_to_hashtable(__environ);
 	g_minishell.erro = 0;
